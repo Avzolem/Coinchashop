@@ -36,7 +36,15 @@ const Home = () => {
         <button onClick={createPayment}>Generate QR</button>
       </div>
 
-      {qrCode && <QRCode value={qrCode} />}
+      <div style={{ height: "auto", margin: "0 auto", maxWidth: 400
+      , width: "100%" }}>
+      {qrCode && <QRCode value={qrCode}
+      size={520}
+      style={{ height: "auto", maxWidth: "100%", width: "100%" }}
+      
+      viewBox={`0 0 520 520
+      `} />}
+      </div>
     </main>
   );
 };

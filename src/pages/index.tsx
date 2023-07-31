@@ -16,7 +16,7 @@ const Home = () => {
       return;
     }
 
-    const apiUrl = `${process.env.NEXT_PUBLIC_APP_URL}/api/makeTransaction?amount=${quantity}&reference=${reference}`;
+    const apiUrl = `${process.env.NEXT_PUBLIC_VERCEL_URL}/api/makeTransaction?amount=${quantity}&reference=${reference}`;
 
     const urlParams = {
       link: new URL(apiUrl),

@@ -36,7 +36,7 @@ const Home = () => {
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Coincha
           <span className=" md:text-4xl lg:text-5xl text-3xl font-bold mr-2 px-2.5 py-0.5 rounded bg-[#A0865D] text-gray-900 ml-2">SHOP</span> 🥮 </h1>
         <p className="mb-6 text-lg font-bold text-gray-600 lg:text-xl sm:px-16 xl:px-48 ">
-          Select the amount of coinchas did you want to buy and click the button,
+          Select the amount of coinchas that you would like to buy and click the button,
           <br />
           then go to your phantom wallet, put on devnet, open the QR Scanner, and please be patient. </p>
         <p className="mb-6 text-lg font-bold text-[#A0865D] lg:text-xl sm:px-16 xl:px-48 ">  Note: Put the QR exactly in the square 🤓 </p>

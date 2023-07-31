@@ -26,14 +26,14 @@ const Home = () => {
   };
 
   return (
-    <main className={styles.main}>
+    <main className="flex flex-col min-h-screen justify-center items-center text-center bg-[#FFF5D4] ">
       <div>
         <input
           type="number"
           value={quantity}
           onChange={(e) => setQuantity(Number(e.target.value))}
         />
-        <button onClick={createPayment}>Generate QR</button>
+        <button className="text-2xl font-bold mb-5 mt-5 bg-black text-white rounded-md" onClick={createPayment}>Generate QR</button>
       </div>
 
       <div style={{ height: "auto", margin: "0 auto", maxWidth: 400
